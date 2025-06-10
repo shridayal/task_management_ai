@@ -1,14 +1,6 @@
-"""Streamlit Web App for Task Management AI"""
-
 import streamlit as st
 import pandas as pd
 import numpy as np
-import plotly.express as px
-import plotly.graph_objects as go
-from datetime import datetime
-import joblib
-import sys
-from pathlib import Path
 
 # Page configuration
 st.set_page_config(
@@ -59,33 +51,23 @@ if page == "🏠 Home":
     }
     st.table(pd.DataFrame(timeline_data))
     
-    # Architecture diagram
+    # System Architecture (text-based instead of mermaid)
     st.subheader("🏗️ System Architecture")
-    st.mermaid("""
-    graph TD
-        A[Raw Task Data] --> B[Data Preprocessing]
-        B --> C[Feature Extraction]
-        C --> D[TF-IDF Features]
-        C --> E[Engineered Features]
-        D --> F[Model Training]
-        E --> F
-        F --> G[Naive Bayes]
-        F --> H[SVM]
-        F --> I[Random Forest]
-        F --> J[XGBoost]
-        G --> K[Ensemble Model]
-        H --> K
-        I --> K
-        J --> K
-        K --> L[Task Classification]
-        K --> M[Priority Prediction]
-        K --> N[Workload Balancing]
+    st.info("""
+    **Data Pipeline Flow:**
+    
+    1. 📊 **Raw Task Data** → Data Collection
+    2. 🧹 **Data Preprocessing** → Text cleaning & feature engineering  
+    3. 🔤 **Feature Extraction** → TF-IDF + Engineered features
+    4. 🤖 **Model Training** → 5 different ML algorithms
+    5. 🎯 **Ensemble Model** → Combined predictions
+    6. 📈 **Final Output** → Classification, Prioritization & Workload Balancing
     """)
 
 elif page == "📊 Data Analysis":
     st.header("Data Analysis Dashboard")
     
-    # Sample data for demo (replace with your actual data)
+    # Sample data for demo
     @st.cache_data
     def load_sample_data():
         return pd.DataFrame({
@@ -101,17 +83,15 @@ elif page == "📊 Data Analysis":
     
     with col1:
         # Priority distribution
+        st.subheader("Priority Distribution")
         priority_counts = df['Priority'].value_counts()
-        fig1 = px.pie(values=priority_counts.values, names=priority_counts.index,
-                      title="Task Priority Distribution")
-        st.plotly_chart(fig1, use_container_width=True)
+        st.bar_chart(priority_counts)
     
     with col2:
         # Status distribution
+        st.subheader("Status Distribution") 
         status_counts = df['Status'].value_counts()
-        fig2 = px.bar(x=status_counts.index, y=status_counts.values,
-                      title="Task Status Distribution")
-        st.plotly_chart(fig2, use_container_width=True)
+        st.bar_chart(status_counts)
 
 elif page == "🤖 Model Performance":
     st.header("Model Performance Comparison")
@@ -132,27 +112,12 @@ elif page == "🤖 Model Performance":
     st.dataframe(df_performance, use_container_width=True)
     
     # Performance comparison chart
-    fig = go.Figure()
+    st.subheader("Model Accuracy Comparison")
+    accuracy_data = df_performance.set_index('Model')['Accuracy']
+    st.bar_chart(accuracy_data)
     
-    for metric in ['Accuracy', 'Precision', 'Recall', 'F1-Score']:
-        fig.add_trace(go.Scatter(
-            x=df_performance['Model'],
-            y=df_performance[metric],
-            mode='lines+markers',
-            name=metric,
-            line=dict(width=3),
-            marker=dict(size=8)
-        ))
-    
-    fig.update_layout(
-        title="Model Performance Comparison",
-        xaxis_title="Models",
-        yaxis_title="Score",
-        yaxis=dict(range=[0.8, 1.0]),
-        height=500
-    )
-    
-    st.plotly_chart(fig, use_container_width=True)
+    # Best model highlight
+    st.success("🏆 **Best Model**: Ensemble with 94% accuracy!")
 
 elif page == "⚖️ Workload Balancer":
     st.header("Intelligent Workload Balancer")
@@ -162,53 +127,26 @@ elif page == "⚖️ Workload Balancer":
         'Assignee': ['Shridayal', 'Anita', 'Vikram', 'Priya'],
         'Current_Load': [32, 28, 35, 25],
         'Capacity': [40, 40, 40, 40],
-        'Utilization': [80, 70, 87.5, 62.5]
     }
     
     df_workload = pd.DataFrame(workload_data)
+    df_workload['Available'] = df_workload['Capacity'] - df_workload['Current_Load']
+    df_workload['Utilization %'] = (df_workload['Current_Load'] / df_workload['Capacity'] * 100).round(1)
     
     # Display current workload
     st.subheader("👥 Current Team Workload")
+    st.dataframe(df_workload, use_container_width=True)
     
-    fig = go.Figure()
+    # Workload visualization
+    chart_data = df_workload.set_index('Assignee')[['Current_Load', 'Available']]
+    st.bar_chart(chart_data)
     
-    fig.add_trace(go.Bar(
-        name='Current Load',
-        x=df_workload['Assignee'],
-        y=df_workload['Current_Load'],
-        marker_color='lightblue'
-    ))
-    
-    fig.add_trace(go.Bar(
-        name='Available Capacity',
-        x=df_workload['Assignee'],
-        y=df_workload['Capacity'] - df_workload['Current_Load'],
-        marker_color='lightgreen'
-    ))
-    
-    fig.update_layout(
-        title="Team Workload Distribution",
-        xaxis_title="Team Members",
-        yaxis_title="Hours",
-        barmode='stack',
-        height=400
-    )
-    
-    st.plotly_chart(fig, use_container_width=True)
-    
-    # Utilization chart
-    fig2 = px.bar(
-        df_workload, 
-        x='Assignee', 
-        y='Utilization',
-        title="Capacity Utilization (%)",
-        color='Utilization',
-        color_continuous_scale='RdYlGn_r'
-    )
-    fig2.add_hline(y=100, line_dash="dash", line_color="red", 
-                   annotation_text="100% Capacity")
-    
-    st.plotly_chart(fig2, use_container_width=True)
+    # Utilization warning
+    for idx, row in df_workload.iterrows():
+        if row['Utilization %'] > 85:
+            st.warning(f"⚠️ {row['Assignee']} is at {row['Utilization %']}% capacity!")
+        elif row['Utilization %'] < 60:
+            st.info(f"✅ {row['Assignee']} has available capacity ({row['Utilization %']}%)")
 
 elif page == "🔮 Task Predictor":
     st.header("AI Task Predictor")
@@ -224,7 +162,7 @@ elif page == "🔮 Task Predictor":
         
         col1, col2 = st.columns(2)
         with col1:
-            deadline = st.date_input("Deadline", datetime.today())
+            deadline = st.date_input("Deadline")
         with col2:
             preferred_assignee = st.selectbox(
                 "Preferred Assignee (Optional)", 
@@ -235,7 +173,7 @@ elif page == "🔮 Task Predictor":
     
     if submitted and task_description:
         with st.spinner("Analyzing task..."):
-            # Simulate prediction (replace with actual model prediction)
+            # Simulate prediction
             import time
             time.sleep(1)
             
