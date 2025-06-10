@@ -1,0 +1,14 @@
+
+**Create requirements.txt**:
+```txt
+pandas
+numpy
+scikit-learn
+xgboost
+nltk
+matplotlib
+seaborn
+plotly
+streamlit
+joblib
+gensim
