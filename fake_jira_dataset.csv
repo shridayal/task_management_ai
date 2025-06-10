@@ -1,0 +1,521 @@
+Key,Summary,Status,Priority,Created,Assignee,Label
+DS-1,Ai/ml task 1,Done,Medium,2023-04-21,Shridayal,ai/ml
+DS-2,Deployment task 2,In Progress,High,2023-07-17,Anita,deployment
+DS-3,Deployment task 3,To Do,Medium,2023-04-01,Shridayal,deployment
+DS-4,Ai/ml task 4,Done,High,2024-01-06,Vikram,ai/ml
+DS-5,Devops task 5,To Do,Low,2023-05-05,Priya,devops
+DS-6,Deployment task 6,Done,High,2023-10-21,Shridayal,deployment
+DS-7,Cloud task 7,To Do,Medium,2023-08-30,Shridayal,cloud
+DS-8,Ai/ml task 8,Done,High,2023-10-11,Rahul,ai/ml
+DS-9,Cloud task 9,To Do,Low,2023-04-25,Rahul,cloud
+DS-10,Ai/ml task 10,In Progress,High,2023-12-05,Rahul,ai/ml
+DS-11,Ai/ml task 11,Done,Medium,2024-03-13,Vikram,ai/ml
+DS-12,Cloud task 12,To Do,Medium,2023-05-15,Vikram,cloud
+DS-13,Deployment task 13,Done,High,2023-03-12,Anita,deployment
+DS-14,Backend task 14,To Do,Low,2024-05-07,Priya,backend
+DS-15,Backend task 15,In Progress,High,2024-02-14,Vikram,backend
+DS-16,Backend task 16,Done,Medium,2023-03-12,Priya,backend
+DS-17,Backend task 17,Done,Medium,2024-03-13,Vikram,backend
+DS-18,Backend task 18,In Progress,High,2023-11-11,Priya,backend
+DS-19,Backend task 19,Done,Medium,2023-11-03,Anita,backend
+DS-20,Devops task 20,In Progress,Low,2023-10-21,Shridayal,devops
+DS-21,Deployment task 21,To Do,Low,2023-05-17,Vikram,deployment
+DS-22,Ai/ml task 22,In Progress,Medium,2024-03-26,Anita,ai/ml
+DS-23,Ai/ml task 23,Done,High,2023-07-07,Vikram,ai/ml
+DS-24,Deployment task 24,Done,High,2023-11-06,Anita,deployment
+DS-25,Backend task 25,To Do,High,2023-09-13,Vikram,backend
+DS-26,Deployment task 26,To Do,Low,2024-03-24,Anita,deployment
+DS-27,Devops task 27,To Do,Medium,2024-03-13,Vikram,devops
+DS-28,Devops task 28,To Do,Low,2023-09-17,Anita,devops
+DS-29,Backend task 29,In Progress,High,2023-09-14,Rahul,backend
+DS-30,Ai/ml task 30,To Do,High,2023-06-27,Shridayal,ai/ml
+DS-31,Backend task 31,In Progress,Medium,2023-02-17,Anita,backend
+DS-32,Deployment task 32,To Do,High,2023-07-14,Vikram,deployment
+DS-33,Ai/ml task 33,To Do,Low,2023-01-21,Rahul,ai/ml
+DS-34,Devops task 34,To Do,High,2023-08-14,Vikram,devops
+DS-35,Cloud task 35,In Progress,Medium,2024-01-01,Shridayal,cloud
+DS-36,Ai/ml task 36,To Do,Low,2023-01-13,Priya,ai/ml
+DS-37,Cloud task 37,Done,Medium,2023-06-17,Anita,cloud
+DS-38,Deployment task 38,To Do,Low,2023-03-17,Vikram,deployment
+DS-39,Deployment task 39,In Progress,Low,2023-01-20,Rahul,deployment
+DS-40,Cloud task 40,Done,Medium,2023-04-20,Priya,cloud
+DS-41,Backend task 41,In Progress,Medium,2023-04-28,Priya,backend
+DS-42,Cloud task 42,Done,High,2023-05-10,Vikram,cloud
+DS-43,Deployment task 43,Done,High,2023-02-27,Rahul,deployment
+DS-44,Deployment task 44,In Progress,Medium,2024-02-16,Shridayal,deployment
+DS-45,Cloud task 45,In Progress,Medium,2024-04-30,Priya,cloud
+DS-46,Devops task 46,Done,Medium,2024-05-13,Priya,devops
+DS-47,Ai/ml task 47,To Do,Medium,2023-11-28,Priya,ai/ml
+DS-48,Cloud task 48,To Do,Medium,2024-04-18,Shridayal,cloud
+DS-49,Backend task 49,To Do,Low,2024-04-08,Shridayal,backend
+DS-50,Backend task 50,Done,Low,2023-09-06,Priya,backend
+DS-51,Backend task 51,Done,Medium,2024-05-14,Rahul,backend
+DS-52,Deployment task 52,To Do,Medium,2023-07-13,Shridayal,deployment
+DS-53,Deployment task 53,In Progress,Low,2023-08-08,Shridayal,deployment
+DS-54,Deployment task 54,Done,Medium,2023-10-12,Priya,deployment
+DS-55,Ai/ml task 55,In Progress,Medium,2023-04-26,Priya,ai/ml
+DS-56,Cloud task 56,To Do,Low,2024-04-08,Shridayal,cloud
+DS-57,Cloud task 57,Done,Low,2023-01-25,Vikram,cloud
+DS-58,Devops task 58,To Do,Medium,2023-03-08,Shridayal,devops
+DS-59,Ai/ml task 59,To Do,High,2023-10-06,Anita,ai/ml
+DS-60,Cloud task 60,In Progress,Medium,2023-02-26,Priya,cloud
+DS-61,Deployment task 61,Done,Medium,2024-03-03,Vikram,deployment
+DS-62,Ai/ml task 62,In Progress,High,2023-10-04,Anita,ai/ml
+DS-63,Deployment task 63,Done,Medium,2023-05-08,Shridayal,deployment
+DS-64,Deployment task 64,To Do,Medium,2023-08-04,Rahul,deployment
+DS-65,Ai/ml task 65,In Progress,Low,2023-04-05,Rahul,ai/ml
+DS-66,Deployment task 66,Done,Medium,2024-01-17,Shridayal,deployment
+DS-67,Ai/ml task 67,In Progress,Medium,2023-05-29,Anita,ai/ml
+DS-68,Deployment task 68,Done,Medium,2024-01-12,Anita,deployment
+DS-69,Ai/ml task 69,Done,High,2024-03-09,Vikram,ai/ml
+DS-70,Backend task 70,In Progress,Medium,2024-02-16,Rahul,backend
+DS-71,Cloud task 71,Done,Low,2024-04-10,Rahul,cloud
+DS-72,Deployment task 72,Done,High,2023-07-13,Vikram,deployment
+DS-73,Ai/ml task 73,In Progress,Low,2023-02-02,Shridayal,ai/ml
+DS-74,Devops task 74,In Progress,Low,2023-10-25,Anita,devops
+DS-75,Ai/ml task 75,Done,Low,2024-02-11,Anita,ai/ml
+DS-76,Backend task 76,To Do,Medium,2023-11-19,Anita,backend
+DS-77,Ai/ml task 77,To Do,High,2024-02-24,Shridayal,ai/ml
+DS-78,Devops task 78,In Progress,High,2024-01-11,Priya,devops
+DS-79,Devops task 79,To Do,High,2023-07-06,Priya,devops
+DS-80,Devops task 80,To Do,Low,2023-08-09,Anita,devops
+DS-81,Backend task 81,In Progress,Low,2023-11-03,Anita,backend
+DS-82,Cloud task 82,In Progress,Medium,2024-02-18,Vikram,cloud
+DS-83,Ai/ml task 83,Done,Low,2023-10-16,Vikram,ai/ml
+DS-84,Deployment task 84,Done,Medium,2023-11-26,Priya,deployment
+DS-85,Deployment task 85,In Progress,High,2023-08-06,Vikram,deployment
+DS-86,Ai/ml task 86,Done,Medium,2023-03-26,Shridayal,ai/ml
+DS-87,Ai/ml task 87,To Do,High,2023-05-30,Vikram,ai/ml
+DS-88,Backend task 88,Done,Low,2024-01-29,Rahul,backend
+DS-89,Ai/ml task 89,To Do,Low,2023-01-03,Priya,ai/ml
+DS-90,Devops task 90,To Do,Medium,2023-03-29,Rahul,devops
+DS-91,Devops task 91,To Do,High,2023-03-15,Rahul,devops
+DS-92,Cloud task 92,To Do,Medium,2023-06-18,Priya,cloud
+DS-93,Backend task 93,To Do,Low,2024-02-02,Rahul,backend
+DS-94,Ai/ml task 94,In Progress,Medium,2024-03-04,Anita,ai/ml
+DS-95,Deployment task 95,In Progress,Low,2023-12-26,Rahul,deployment
+DS-96,Deployment task 96,To Do,Low,2023-01-14,Anita,deployment
+DS-97,Devops task 97,To Do,Medium,2023-05-09,Priya,devops
+DS-98,Backend task 98,Done,Low,2023-05-13,Rahul,backend
+DS-99,Ai/ml task 99,To Do,High,2023-03-08,Anita,ai/ml
+DS-100,Deployment task 100,In Progress,Medium,2023-01-16,Anita,deployment
+DS-101,Devops task 101,In Progress,High,2023-05-17,Vikram,devops
+DS-102,Deployment task 102,Done,Medium,2024-03-26,Priya,deployment
+DS-103,Deployment task 103,In Progress,Low,2024-04-29,Priya,deployment
+DS-104,Cloud task 104,Done,High,2024-02-03,Priya,cloud
+DS-105,Cloud task 105,In Progress,Medium,2023-09-27,Anita,cloud
+DS-106,Deployment task 106,To Do,Medium,2024-04-30,Anita,deployment
+DS-107,Deployment task 107,In Progress,High,2023-07-16,Anita,deployment
+DS-108,Deployment task 108,Done,Low,2023-12-29,Rahul,deployment
+DS-109,Backend task 109,In Progress,Low,2024-01-31,Priya,backend
+DS-110,Devops task 110,In Progress,Low,2024-01-31,Shridayal,devops
+DS-111,Cloud task 111,In Progress,Low,2023-11-03,Shridayal,cloud
+DS-112,Cloud task 112,In Progress,High,2024-03-25,Shridayal,cloud
+DS-113,Deployment task 113,To Do,Low,2023-02-23,Priya,deployment
+DS-114,Ai/ml task 114,Done,Medium,2023-02-09,Priya,ai/ml
+DS-115,Ai/ml task 115,To Do,Low,2024-04-25,Anita,ai/ml
+DS-116,Devops task 116,In Progress,Medium,2023-09-10,Vikram,devops
+DS-117,Cloud task 117,To Do,Medium,2023-08-31,Rahul,cloud
+DS-118,Cloud task 118,Done,Low,2023-02-20,Vikram,cloud
+DS-119,Backend task 119,Done,Medium,2024-01-10,Vikram,backend
+DS-120,Deployment task 120,To Do,High,2024-02-21,Shridayal,deployment
+DS-121,Cloud task 121,Done,Medium,2023-06-13,Anita,cloud
+DS-122,Devops task 122,To Do,High,2023-02-19,Rahul,devops
+DS-123,Devops task 123,In Progress,Medium,2023-07-22,Priya,devops
+DS-124,Backend task 124,In Progress,Medium,2023-12-04,Rahul,backend
+DS-125,Cloud task 125,Done,High,2023-12-09,Vikram,cloud
+DS-126,Deployment task 126,Done,Low,2023-09-15,Shridayal,deployment
+DS-127,Devops task 127,To Do,Medium,2024-02-12,Vikram,devops
+DS-128,Ai/ml task 128,To Do,High,2023-03-16,Priya,ai/ml
+DS-129,Ai/ml task 129,Done,Low,2024-02-04,Priya,ai/ml
+DS-130,Cloud task 130,To Do,Low,2024-01-28,Shridayal,cloud
+DS-131,Deployment task 131,Done,High,2024-03-27,Priya,deployment
+DS-132,Backend task 132,To Do,Low,2024-05-14,Shridayal,backend
+DS-133,Backend task 133,To Do,Low,2023-10-25,Anita,backend
+DS-134,Ai/ml task 134,Done,Medium,2024-02-02,Rahul,ai/ml
+DS-135,Backend task 135,To Do,Low,2024-04-25,Anita,backend
+DS-136,Ai/ml task 136,In Progress,Low,2023-11-11,Vikram,ai/ml
+DS-137,Devops task 137,To Do,High,2024-05-02,Vikram,devops
+DS-138,Backend task 138,In Progress,Low,2023-06-13,Vikram,backend
+DS-139,Devops task 139,To Do,Medium,2023-09-29,Priya,devops
+DS-140,Deployment task 140,To Do,Medium,2023-12-24,Priya,deployment
+DS-141,Cloud task 141,In Progress,Low,2024-01-13,Shridayal,cloud
+DS-142,Ai/ml task 142,In Progress,High,2023-03-31,Rahul,ai/ml
+DS-143,Deployment task 143,Done,High,2023-04-23,Shridayal,deployment
+DS-144,Cloud task 144,To Do,Low,2024-02-16,Anita,cloud
+DS-145,Backend task 145,In Progress,Medium,2023-12-03,Shridayal,backend
+DS-146,Deployment task 146,Done,High,2023-08-10,Shridayal,deployment
+DS-147,Cloud task 147,To Do,High,2023-10-07,Priya,cloud
+DS-148,Ai/ml task 148,To Do,High,2023-04-04,Vikram,ai/ml
+DS-149,Devops task 149,In Progress,Low,2023-02-20,Rahul,devops
+DS-150,Backend task 150,To Do,Low,2023-02-07,Anita,backend
+DS-151,Backend task 151,In Progress,Low,2023-09-24,Shridayal,backend
+DS-152,Devops task 152,In Progress,High,2023-02-22,Priya,devops
+DS-153,Backend task 153,To Do,Medium,2024-05-15,Priya,backend
+DS-154,Devops task 154,Done,Low,2023-11-09,Rahul,devops
+DS-155,Cloud task 155,In Progress,Low,2024-01-09,Rahul,cloud
+DS-156,Deployment task 156,In Progress,Low,2023-02-07,Shridayal,deployment
+DS-157,Cloud task 157,In Progress,High,2023-07-21,Rahul,cloud
+DS-158,Backend task 158,To Do,High,2023-10-23,Priya,backend
+DS-159,Devops task 159,In Progress,Medium,2024-03-10,Priya,devops
+DS-160,Devops task 160,To Do,Low,2023-06-05,Vikram,devops
+DS-161,Cloud task 161,In Progress,High,2024-01-20,Vikram,cloud
+DS-162,Backend task 162,To Do,High,2024-01-01,Vikram,backend
+DS-163,Backend task 163,Done,High,2023-01-03,Vikram,backend
+DS-164,Backend task 164,In Progress,Medium,2023-06-05,Shridayal,backend
+DS-165,Backend task 165,In Progress,Low,2024-01-27,Vikram,backend
+DS-166,Cloud task 166,Done,Medium,2023-04-22,Anita,cloud
+DS-167,Cloud task 167,To Do,High,2023-02-03,Rahul,cloud
+DS-168,Deployment task 168,Done,Medium,2023-12-05,Vikram,deployment
+DS-169,Backend task 169,To Do,High,2023-01-16,Shridayal,backend
+DS-170,Devops task 170,Done,High,2023-07-11,Priya,devops
+DS-171,Devops task 171,In Progress,High,2023-01-22,Priya,devops
+DS-172,Devops task 172,To Do,Low,2024-01-15,Anita,devops
+DS-173,Backend task 173,Done,High,2023-01-23,Shridayal,backend
+DS-174,Deployment task 174,To Do,Medium,2023-10-18,Rahul,deployment
+DS-175,Backend task 175,To Do,High,2023-08-11,Shridayal,backend
+DS-176,Cloud task 176,To Do,Low,2024-03-28,Anita,cloud
+DS-177,Backend task 177,In Progress,High,2023-07-20,Anita,backend
+DS-178,Backend task 178,Done,Medium,2023-04-27,Shridayal,backend
+DS-179,Ai/ml task 179,Done,Medium,2024-04-02,Anita,ai/ml
+DS-180,Ai/ml task 180,Done,Medium,2023-11-23,Priya,ai/ml
+DS-181,Ai/ml task 181,In Progress,Low,2023-03-07,Rahul,ai/ml
+DS-182,Cloud task 182,Done,Low,2023-07-19,Shridayal,cloud
+DS-183,Cloud task 183,Done,High,2023-03-14,Vikram,cloud
+DS-184,Ai/ml task 184,In Progress,Medium,2023-04-06,Vikram,ai/ml
+DS-185,Backend task 185,To Do,Low,2023-01-13,Anita,backend
+DS-186,Devops task 186,To Do,High,2023-08-04,Priya,devops
+DS-187,Ai/ml task 187,In Progress,Low,2023-10-22,Rahul,ai/ml
+DS-188,Ai/ml task 188,In Progress,High,2023-03-29,Vikram,ai/ml
+DS-189,Backend task 189,In Progress,High,2023-11-06,Shridayal,backend
+DS-190,Ai/ml task 190,In Progress,Medium,2023-03-24,Shridayal,ai/ml
+DS-191,Devops task 191,Done,High,2023-09-18,Vikram,devops
+DS-192,Backend task 192,To Do,High,2023-02-25,Rahul,backend
+DS-193,Deployment task 193,To Do,Low,2023-06-12,Anita,deployment
+DS-194,Cloud task 194,To Do,Low,2023-07-11,Rahul,cloud
+DS-195,Backend task 195,To Do,Low,2024-03-27,Priya,backend
+DS-196,Cloud task 196,To Do,Medium,2023-07-17,Anita,cloud
+DS-197,Ai/ml task 197,In Progress,Medium,2024-04-27,Rahul,ai/ml
+DS-198,Ai/ml task 198,In Progress,Medium,2023-07-19,Rahul,ai/ml
+DS-199,Devops task 199,Done,Medium,2024-04-27,Rahul,devops
+DS-200,Deployment task 200,To Do,Low,2024-01-13,Vikram,deployment
+DS-201,Backend task 201,Done,Low,2023-08-20,Priya,backend
+DS-202,Cloud task 202,Done,Medium,2023-07-13,Anita,cloud
+DS-203,Ai/ml task 203,To Do,Medium,2023-04-21,Rahul,ai/ml
+DS-204,Ai/ml task 204,In Progress,High,2023-06-12,Vikram,ai/ml
+DS-205,Cloud task 205,Done,Medium,2024-01-04,Anita,cloud
+DS-206,Devops task 206,To Do,Medium,2023-04-05,Anita,devops
+DS-207,Deployment task 207,In Progress,Low,2023-07-10,Vikram,deployment
+DS-208,Backend task 208,To Do,High,2023-12-01,Rahul,backend
+DS-209,Ai/ml task 209,To Do,High,2023-10-21,Shridayal,ai/ml
+DS-210,Backend task 210,Done,High,2023-12-25,Shridayal,backend
+DS-211,Cloud task 211,Done,Low,2023-07-31,Shridayal,cloud
+DS-212,Deployment task 212,In Progress,Medium,2024-02-06,Rahul,deployment
+DS-213,Ai/ml task 213,In Progress,Low,2023-04-07,Priya,ai/ml
+DS-214,Deployment task 214,In Progress,Low,2023-03-16,Vikram,deployment
+DS-215,Cloud task 215,In Progress,Low,2024-02-02,Rahul,cloud
+DS-216,Cloud task 216,To Do,Medium,2024-04-12,Rahul,cloud
+DS-217,Cloud task 217,In Progress,Low,2023-01-21,Shridayal,cloud
+DS-218,Deployment task 218,In Progress,Medium,2023-12-03,Vikram,deployment
+DS-219,Backend task 219,To Do,Medium,2023-08-07,Shridayal,backend
+DS-220,Deployment task 220,To Do,High,2023-10-07,Priya,deployment
+DS-221,Devops task 221,To Do,Medium,2024-04-02,Anita,devops
+DS-222,Devops task 222,In Progress,Low,2023-08-19,Shridayal,devops
+DS-223,Devops task 223,To Do,High,2023-05-20,Vikram,devops
+DS-224,Backend task 224,In Progress,Low,2023-12-20,Priya,backend
+DS-225,Cloud task 225,To Do,Low,2024-01-26,Rahul,cloud
+DS-226,Cloud task 226,Done,High,2024-03-01,Rahul,cloud
+DS-227,Cloud task 227,Done,Medium,2023-02-24,Priya,cloud
+DS-228,Devops task 228,To Do,Low,2023-07-17,Shridayal,devops
+DS-229,Cloud task 229,Done,Low,2024-03-04,Anita,cloud
+DS-230,Backend task 230,To Do,High,2023-12-08,Anita,backend
+DS-231,Ai/ml task 231,In Progress,Low,2024-04-18,Shridayal,ai/ml
+DS-232,Ai/ml task 232,Done,High,2024-04-18,Priya,ai/ml
+DS-233,Deployment task 233,To Do,Low,2024-02-14,Vikram,deployment
+DS-234,Deployment task 234,Done,Low,2024-01-26,Rahul,deployment
+DS-235,Ai/ml task 235,Done,Low,2023-11-13,Vikram,ai/ml
+DS-236,Ai/ml task 236,To Do,Medium,2023-05-04,Vikram,ai/ml
+DS-237,Deployment task 237,In Progress,Low,2023-07-31,Anita,deployment
+DS-238,Devops task 238,Done,Medium,2023-10-22,Anita,devops
+DS-239,Backend task 239,Done,Low,2023-05-13,Vikram,backend
+DS-240,Devops task 240,Done,Low,2024-04-13,Shridayal,devops
+DS-241,Ai/ml task 241,Done,High,2024-04-09,Shridayal,ai/ml
+DS-242,Cloud task 242,To Do,Medium,2023-09-14,Priya,cloud
+DS-243,Deployment task 243,To Do,Low,2023-03-19,Anita,deployment
+DS-244,Deployment task 244,To Do,Medium,2023-02-18,Shridayal,deployment
+DS-245,Cloud task 245,To Do,Medium,2023-05-27,Rahul,cloud
+DS-246,Devops task 246,In Progress,High,2023-01-24,Vikram,devops
+DS-247,Cloud task 247,To Do,Low,2023-12-04,Anita,cloud
+DS-248,Backend task 248,In Progress,High,2023-04-21,Priya,backend
+DS-249,Devops task 249,Done,Low,2023-12-19,Vikram,devops
+DS-250,Devops task 250,In Progress,High,2023-12-05,Anita,devops
+DS-251,Ai/ml task 251,To Do,High,2024-03-29,Rahul,ai/ml
+DS-252,Backend task 252,Done,High,2023-03-09,Rahul,backend
+DS-253,Cloud task 253,In Progress,Low,2023-12-14,Anita,cloud
+DS-254,Deployment task 254,To Do,Medium,2024-01-25,Vikram,deployment
+DS-255,Deployment task 255,Done,Low,2024-04-25,Vikram,deployment
+DS-256,Deployment task 256,To Do,Medium,2024-04-13,Shridayal,deployment
+DS-257,Ai/ml task 257,In Progress,High,2023-05-14,Vikram,ai/ml
+DS-258,Ai/ml task 258,Done,Medium,2023-12-14,Rahul,ai/ml
+DS-259,Backend task 259,Done,High,2023-01-05,Shridayal,backend
+DS-260,Cloud task 260,In Progress,Medium,2023-11-14,Vikram,cloud
+DS-261,Backend task 261,To Do,Medium,2023-01-23,Rahul,backend
+DS-262,Deployment task 262,In Progress,Low,2024-02-29,Rahul,deployment
+DS-263,Backend task 263,In Progress,Low,2023-10-23,Anita,backend
+DS-264,Devops task 264,Done,High,2023-10-31,Vikram,devops
+DS-265,Cloud task 265,Done,High,2023-06-03,Shridayal,cloud
+DS-266,Ai/ml task 266,To Do,High,2023-01-23,Shridayal,ai/ml
+DS-267,Devops task 267,Done,Medium,2023-03-24,Anita,devops
+DS-268,Ai/ml task 268,In Progress,Low,2023-01-24,Shridayal,ai/ml
+DS-269,Devops task 269,Done,Low,2023-12-22,Shridayal,devops
+DS-270,Cloud task 270,To Do,High,2023-04-26,Anita,cloud
+DS-271,Ai/ml task 271,In Progress,Low,2024-01-10,Priya,ai/ml
+DS-272,Backend task 272,In Progress,Low,2023-12-15,Anita,backend
+DS-273,Backend task 273,In Progress,Low,2023-12-04,Shridayal,backend
+DS-274,Backend task 274,In Progress,Low,2023-07-08,Rahul,backend
+DS-275,Backend task 275,In Progress,Low,2023-02-15,Priya,backend
+DS-276,Backend task 276,Done,Medium,2023-03-14,Rahul,backend
+DS-277,Backend task 277,To Do,High,2023-12-19,Vikram,backend
+DS-278,Ai/ml task 278,Done,Medium,2023-06-13,Shridayal,ai/ml
+DS-279,Ai/ml task 279,In Progress,High,2023-03-08,Rahul,ai/ml
+DS-280,Backend task 280,To Do,Medium,2024-03-23,Vikram,backend
+DS-281,Cloud task 281,To Do,Medium,2024-05-10,Rahul,cloud
+DS-282,Devops task 282,To Do,Low,2023-07-09,Shridayal,devops
+DS-283,Backend task 283,To Do,Medium,2023-07-12,Shridayal,backend
+DS-284,Deployment task 284,Done,High,2024-02-12,Anita,deployment
+DS-285,Deployment task 285,To Do,Low,2023-01-04,Vikram,deployment
+DS-286,Ai/ml task 286,To Do,High,2023-02-08,Vikram,ai/ml
+DS-287,Cloud task 287,Done,Medium,2023-09-17,Vikram,cloud
+DS-288,Ai/ml task 288,To Do,High,2023-07-04,Anita,ai/ml
+DS-289,Ai/ml task 289,In Progress,Medium,2024-01-03,Priya,ai/ml
+DS-290,Ai/ml task 290,To Do,Medium,2023-04-04,Anita,ai/ml
+DS-291,Cloud task 291,Done,High,2024-04-08,Rahul,cloud
+DS-292,Deployment task 292,In Progress,High,2023-10-28,Shridayal,deployment
+DS-293,Ai/ml task 293,Done,Medium,2023-04-23,Shridayal,ai/ml
+DS-294,Backend task 294,Done,Medium,2023-04-22,Shridayal,backend
+DS-295,Backend task 295,Done,High,2023-11-14,Vikram,backend
+DS-296,Ai/ml task 296,In Progress,High,2023-05-10,Anita,ai/ml
+DS-297,Deployment task 297,To Do,High,2024-01-18,Shridayal,deployment
+DS-298,Deployment task 298,In Progress,Low,2023-08-15,Vikram,deployment
+DS-299,Deployment task 299,To Do,High,2024-03-25,Anita,deployment
+DS-300,Backend task 300,Done,Medium,2024-05-11,Vikram,backend
+DS-301,Devops task 301,Done,Low,2024-03-03,Anita,devops
+DS-302,Devops task 302,In Progress,Low,2024-02-02,Priya,devops
+DS-303,Devops task 303,Done,Medium,2024-01-13,Anita,devops
+DS-304,Ai/ml task 304,Done,High,2024-01-19,Priya,ai/ml
+DS-305,Cloud task 305,In Progress,Medium,2023-01-29,Rahul,cloud
+DS-306,Cloud task 306,Done,Medium,2023-09-06,Rahul,cloud
+DS-307,Deployment task 307,Done,Low,2023-04-16,Priya,deployment
+DS-308,Backend task 308,In Progress,Medium,2023-10-30,Rahul,backend
+DS-309,Ai/ml task 309,In Progress,Medium,2024-05-08,Priya,ai/ml
+DS-310,Ai/ml task 310,To Do,High,2023-06-20,Priya,ai/ml
+DS-311,Backend task 311,Done,High,2024-04-21,Shridayal,backend
+DS-312,Backend task 312,To Do,Low,2023-02-22,Anita,backend
+DS-313,Devops task 313,To Do,Low,2023-04-28,Shridayal,devops
+DS-314,Ai/ml task 314,Done,High,2023-01-06,Priya,ai/ml
+DS-315,Ai/ml task 315,Done,Medium,2023-10-01,Priya,ai/ml
+DS-316,Deployment task 316,Done,Medium,2023-07-25,Shridayal,deployment
+DS-317,Backend task 317,To Do,Low,2023-04-11,Priya,backend
+DS-318,Cloud task 318,In Progress,High,2023-04-23,Anita,cloud
+DS-319,Devops task 319,To Do,Medium,2024-04-20,Anita,devops
+DS-320,Backend task 320,Done,High,2023-05-23,Priya,backend
+DS-321,Ai/ml task 321,In Progress,Medium,2023-11-15,Rahul,ai/ml
+DS-322,Ai/ml task 322,To Do,Medium,2024-03-25,Shridayal,ai/ml
+DS-323,Ai/ml task 323,Done,Medium,2023-11-01,Vikram,ai/ml
+DS-324,Ai/ml task 324,Done,High,2023-01-22,Rahul,ai/ml
+DS-325,Cloud task 325,To Do,High,2023-01-03,Rahul,cloud
+DS-326,Ai/ml task 326,In Progress,High,2023-11-01,Priya,ai/ml
+DS-327,Deployment task 327,Done,Medium,2023-08-16,Anita,deployment
+DS-328,Cloud task 328,To Do,Medium,2024-04-12,Rahul,cloud
+DS-329,Backend task 329,Done,Medium,2023-03-19,Vikram,backend
+DS-330,Devops task 330,To Do,Medium,2024-03-03,Anita,devops
+DS-331,Cloud task 331,Done,Medium,2023-06-26,Shridayal,cloud
+DS-332,Cloud task 332,In Progress,Medium,2023-11-30,Anita,cloud
+DS-333,Backend task 333,Done,Low,2024-05-05,Rahul,backend
+DS-334,Ai/ml task 334,To Do,Medium,2023-12-16,Vikram,ai/ml
+DS-335,Ai/ml task 335,In Progress,Low,2023-03-07,Vikram,ai/ml
+DS-336,Ai/ml task 336,In Progress,Low,2023-04-04,Rahul,ai/ml
+DS-337,Deployment task 337,Done,Low,2023-11-11,Priya,deployment
+DS-338,Devops task 338,In Progress,Low,2023-12-11,Shridayal,devops
+DS-339,Ai/ml task 339,Done,High,2023-06-04,Rahul,ai/ml
+DS-340,Deployment task 340,In Progress,High,2023-04-23,Rahul,deployment
+DS-341,Ai/ml task 341,Done,High,2024-04-06,Priya,ai/ml
+DS-342,Backend task 342,Done,Medium,2023-07-01,Priya,backend
+DS-343,Deployment task 343,In Progress,Low,2023-06-22,Rahul,deployment
+DS-344,Backend task 344,In Progress,Low,2023-01-31,Rahul,backend
+DS-345,Deployment task 345,In Progress,High,2023-04-20,Vikram,deployment
+DS-346,Cloud task 346,To Do,High,2023-01-20,Shridayal,cloud
+DS-347,Ai/ml task 347,To Do,Low,2024-04-28,Rahul,ai/ml
+DS-348,Deployment task 348,Done,High,2023-04-14,Anita,deployment
+DS-349,Cloud task 349,To Do,Medium,2023-12-17,Rahul,cloud
+DS-350,Devops task 350,To Do,High,2023-02-09,Priya,devops
+DS-351,Devops task 351,To Do,Medium,2023-11-30,Rahul,devops
+DS-352,Cloud task 352,In Progress,Medium,2024-02-14,Shridayal,cloud
+DS-353,Deployment task 353,To Do,Medium,2023-05-30,Vikram,deployment
+DS-354,Cloud task 354,In Progress,High,2024-04-08,Shridayal,cloud
+DS-355,Ai/ml task 355,In Progress,High,2023-01-29,Vikram,ai/ml
+DS-356,Cloud task 356,To Do,Low,2023-03-01,Vikram,cloud
+DS-357,Backend task 357,In Progress,Low,2023-07-22,Rahul,backend
+DS-358,Cloud task 358,In Progress,Low,2023-02-11,Shridayal,cloud
+DS-359,Deployment task 359,To Do,Low,2024-02-12,Anita,deployment
+DS-360,Backend task 360,In Progress,Low,2023-12-01,Priya,backend
+DS-361,Backend task 361,Done,Medium,2024-02-17,Anita,backend
+DS-362,Deployment task 362,Done,Low,2023-10-04,Vikram,deployment
+DS-363,Ai/ml task 363,To Do,High,2023-06-19,Rahul,ai/ml
+DS-364,Devops task 364,To Do,Low,2023-02-21,Rahul,devops
+DS-365,Devops task 365,In Progress,Medium,2023-08-25,Anita,devops
+DS-366,Devops task 366,Done,High,2023-06-26,Shridayal,devops
+DS-367,Backend task 367,To Do,High,2024-04-28,Priya,backend
+DS-368,Ai/ml task 368,To Do,High,2023-11-11,Rahul,ai/ml
+DS-369,Deployment task 369,In Progress,Low,2023-03-06,Shridayal,deployment
+DS-370,Cloud task 370,In Progress,High,2024-02-10,Shridayal,cloud
+DS-371,Deployment task 371,In Progress,Medium,2023-03-21,Shridayal,deployment
+DS-372,Ai/ml task 372,To Do,High,2023-07-27,Priya,ai/ml
+DS-373,Backend task 373,Done,Medium,2023-01-04,Vikram,backend
+DS-374,Backend task 374,In Progress,Low,2024-01-26,Anita,backend
+DS-375,Backend task 375,Done,Medium,2023-05-26,Vikram,backend
+DS-376,Ai/ml task 376,In Progress,Medium,2024-01-01,Priya,ai/ml
+DS-377,Cloud task 377,Done,High,2023-09-25,Rahul,cloud
+DS-378,Ai/ml task 378,Done,Medium,2023-01-21,Rahul,ai/ml
+DS-379,Devops task 379,To Do,Medium,2023-12-30,Anita,devops
+DS-380,Cloud task 380,In Progress,Medium,2024-01-24,Rahul,cloud
+DS-381,Backend task 381,Done,Low,2023-12-16,Anita,backend
+DS-382,Cloud task 382,Done,Low,2023-12-27,Anita,cloud
+DS-383,Deployment task 383,To Do,Medium,2024-01-31,Shridayal,deployment
+DS-384,Cloud task 384,To Do,Medium,2024-05-15,Priya,cloud
+DS-385,Cloud task 385,To Do,Low,2023-12-22,Shridayal,cloud
+DS-386,Cloud task 386,Done,Medium,2024-03-11,Vikram,cloud
+DS-387,Backend task 387,To Do,Low,2023-02-06,Vikram,backend
+DS-388,Backend task 388,In Progress,Low,2023-06-27,Anita,backend
+DS-389,Backend task 389,To Do,Medium,2023-06-17,Rahul,backend
+DS-390,Cloud task 390,To Do,High,2023-07-04,Vikram,cloud
+DS-391,Backend task 391,In Progress,Medium,2023-03-17,Shridayal,backend
+DS-392,Backend task 392,Done,High,2024-02-18,Shridayal,backend
+DS-393,Deployment task 393,Done,Medium,2024-04-22,Anita,deployment
+DS-394,Deployment task 394,To Do,High,2023-01-01,Rahul,deployment
+DS-395,Backend task 395,Done,Low,2023-11-25,Anita,backend
+DS-396,Devops task 396,In Progress,High,2023-06-04,Rahul,devops
+DS-397,Cloud task 397,Done,High,2023-03-02,Vikram,cloud
+DS-398,Deployment task 398,To Do,High,2024-03-16,Rahul,deployment
+DS-399,Ai/ml task 399,Done,Medium,2024-03-19,Vikram,ai/ml
+DS-400,Ai/ml task 400,Done,High,2023-05-27,Rahul,ai/ml
+DS-401,Devops task 401,Done,High,2023-03-09,Anita,devops
+DS-402,Deployment task 402,To Do,Medium,2024-03-06,Vikram,deployment
+DS-403,Deployment task 403,To Do,High,2024-01-07,Anita,deployment
+DS-404,Cloud task 404,To Do,High,2023-10-27,Priya,cloud
+DS-405,Deployment task 405,Done,High,2024-04-06,Anita,deployment
+DS-406,Ai/ml task 406,To Do,High,2023-04-23,Priya,ai/ml
+DS-407,Devops task 407,In Progress,Low,2024-02-23,Anita,devops
+DS-408,Ai/ml task 408,In Progress,High,2024-02-28,Priya,ai/ml
+DS-409,Deployment task 409,Done,High,2023-10-22,Vikram,deployment
+DS-410,Cloud task 410,To Do,Low,2023-01-25,Shridayal,cloud
+DS-411,Deployment task 411,In Progress,Low,2024-03-28,Anita,deployment
+DS-412,Backend task 412,In Progress,Medium,2023-01-17,Vikram,backend
+DS-413,Deployment task 413,Done,High,2023-09-24,Shridayal,deployment
+DS-414,Backend task 414,In Progress,Low,2023-09-14,Anita,backend
+DS-415,Backend task 415,In Progress,High,2023-08-27,Priya,backend
+DS-416,Devops task 416,To Do,Medium,2023-12-26,Shridayal,devops
+DS-417,Devops task 417,To Do,Medium,2023-04-29,Priya,devops
+DS-418,Backend task 418,In Progress,Low,2024-04-26,Vikram,backend
+DS-419,Ai/ml task 419,Done,Medium,2024-05-01,Anita,ai/ml
+DS-420,Backend task 420,Done,High,2023-08-05,Shridayal,backend
+DS-421,Ai/ml task 421,In Progress,High,2023-08-30,Priya,ai/ml
+DS-422,Backend task 422,To Do,Low,2023-05-10,Anita,backend
+DS-423,Deployment task 423,To Do,Medium,2023-11-27,Vikram,deployment
+DS-424,Backend task 424,In Progress,High,2024-04-14,Priya,backend
+DS-425,Deployment task 425,Done,Medium,2023-02-27,Priya,deployment
+DS-426,Devops task 426,To Do,Low,2023-02-16,Vikram,devops
+DS-427,Cloud task 427,To Do,High,2023-09-09,Vikram,cloud
+DS-428,Ai/ml task 428,Done,Medium,2023-08-15,Priya,ai/ml
+DS-429,Devops task 429,Done,Low,2024-02-08,Shridayal,devops
+DS-430,Ai/ml task 430,To Do,Low,2023-06-05,Rahul,ai/ml
+DS-431,Backend task 431,Done,Medium,2023-01-16,Priya,backend
+DS-432,Ai/ml task 432,In Progress,High,2023-12-02,Rahul,ai/ml
+DS-433,Ai/ml task 433,Done,High,2023-12-22,Vikram,ai/ml
+DS-434,Deployment task 434,To Do,Medium,2023-04-07,Vikram,deployment
+DS-435,Deployment task 435,In Progress,Low,2023-07-19,Vikram,deployment
+DS-436,Devops task 436,In Progress,High,2023-12-08,Rahul,devops
+DS-437,Backend task 437,To Do,Low,2024-02-02,Priya,backend
+DS-438,Ai/ml task 438,To Do,Low,2024-04-05,Vikram,ai/ml
+DS-439,Deployment task 439,Done,Medium,2023-04-27,Priya,deployment
+DS-440,Deployment task 440,In Progress,Medium,2024-04-15,Anita,deployment
+DS-441,Cloud task 441,To Do,High,2024-01-01,Rahul,cloud
+DS-442,Devops task 442,Done,Medium,2023-07-27,Anita,devops
+DS-443,Deployment task 443,To Do,Low,2024-05-15,Rahul,deployment
+DS-444,Ai/ml task 444,Done,High,2023-09-11,Shridayal,ai/ml
+DS-445,Deployment task 445,In Progress,Low,2023-08-04,Rahul,deployment
+DS-446,Ai/ml task 446,To Do,High,2023-02-02,Anita,ai/ml
+DS-447,Deployment task 447,In Progress,Medium,2023-04-24,Rahul,deployment
+DS-448,Deployment task 448,Done,Low,2024-02-07,Shridayal,deployment
+DS-449,Ai/ml task 449,In Progress,High,2023-08-06,Priya,ai/ml
+DS-450,Cloud task 450,In Progress,High,2023-05-11,Rahul,cloud
+DS-451,Devops task 451,To Do,Low,2023-06-17,Priya,devops
+DS-452,Cloud task 452,In Progress,Medium,2024-01-02,Shridayal,cloud
+DS-453,Cloud task 453,Done,Low,2023-09-19,Shridayal,cloud
+DS-454,Cloud task 454,Done,High,2023-01-21,Rahul,cloud
+DS-455,Deployment task 455,Done,High,2023-05-03,Rahul,deployment
+DS-456,Cloud task 456,To Do,Medium,2023-02-10,Shridayal,cloud
+DS-457,Backend task 457,To Do,High,2023-11-12,Rahul,backend
+DS-458,Deployment task 458,Done,High,2023-02-20,Priya,deployment
+DS-459,Backend task 459,Done,Low,2023-01-17,Shridayal,backend
+DS-460,Ai/ml task 460,In Progress,Low,2024-03-05,Rahul,ai/ml
+DS-461,Backend task 461,In Progress,Low,2024-03-20,Rahul,backend
+DS-462,Backend task 462,In Progress,Medium,2023-03-19,Rahul,backend
+DS-463,Deployment task 463,To Do,Medium,2023-11-02,Shridayal,deployment
+DS-464,Ai/ml task 464,In Progress,High,2024-02-23,Vikram,ai/ml
+DS-465,Deployment task 465,In Progress,Low,2024-04-02,Anita,deployment
+DS-466,Devops task 466,Done,Low,2023-12-18,Shridayal,devops
+DS-467,Deployment task 467,To Do,Medium,2023-10-27,Shridayal,deployment
+DS-468,Deployment task 468,Done,Medium,2023-04-25,Vikram,deployment
+DS-469,Deployment task 469,In Progress,High,2023-12-04,Vikram,deployment
+DS-470,Deployment task 470,To Do,Medium,2023-12-20,Priya,deployment
+DS-471,Deployment task 471,To Do,Medium,2023-01-22,Anita,deployment
+DS-472,Devops task 472,Done,Medium,2024-03-06,Shridayal,devops
+DS-473,Backend task 473,In Progress,Medium,2023-05-30,Shridayal,backend
+DS-474,Cloud task 474,Done,High,2023-08-17,Priya,cloud
+DS-475,Deployment task 475,To Do,Low,2023-05-10,Vikram,deployment
+DS-476,Ai/ml task 476,In Progress,Medium,2023-04-30,Anita,ai/ml
+DS-477,Deployment task 477,Done,High,2024-02-18,Vikram,deployment
+DS-478,Backend task 478,In Progress,Medium,2023-12-12,Shridayal,backend
+DS-479,Cloud task 479,In Progress,Low,2023-02-01,Vikram,cloud
+DS-480,Devops task 480,Done,Low,2024-01-15,Shridayal,devops
+DS-481,Devops task 481,In Progress,High,2023-10-18,Shridayal,devops
+DS-482,Ai/ml task 482,To Do,High,2023-02-26,Anita,ai/ml
+DS-483,Backend task 483,To Do,High,2023-06-22,Shridayal,backend
+DS-484,Ai/ml task 484,To Do,Medium,2023-04-30,Shridayal,ai/ml
+DS-485,Deployment task 485,To Do,Low,2023-10-01,Anita,deployment
+DS-486,Deployment task 486,To Do,Medium,2023-11-14,Shridayal,deployment
+DS-487,Cloud task 487,In Progress,Low,2023-08-12,Shridayal,cloud
+DS-488,Deployment task 488,To Do,Medium,2023-07-01,Anita,deployment
+DS-489,Devops task 489,In Progress,Medium,2024-04-21,Anita,devops
+DS-490,Cloud task 490,To Do,Low,2023-09-16,Priya,cloud
+DS-491,Deployment task 491,To Do,Low,2023-09-19,Rahul,deployment
+DS-492,Cloud task 492,To Do,High,2023-02-03,Priya,cloud
+DS-493,Deployment task 493,To Do,Low,2024-04-30,Rahul,deployment
+DS-494,Devops task 494,Done,High,2024-04-03,Anita,devops
+DS-495,Backend task 495,To Do,High,2023-10-27,Shridayal,backend
+DS-496,Cloud task 496,To Do,High,2023-07-03,Shridayal,cloud
+DS-497,Devops task 497,To Do,High,2023-07-17,Rahul,devops
+DS-498,Cloud task 498,To Do,Low,2023-05-21,Priya,cloud
+DS-499,Cloud task 499,In Progress,High,2023-08-13,Rahul,cloud
+DS-500,Devops task 500,In Progress,Medium,2023-03-28,Rahul,devops
+DS-501,Cloud task 501,Done,High,2024-03-24,Rahul,cloud
+DS-502,Deployment task 502,In Progress,Medium,2023-11-28,Rahul,deployment
+DS-503,Backend task 503,To Do,Low,2023-11-10,Priya,backend
+DS-504,Backend task 504,In Progress,Low,2023-03-31,Priya,backend
+DS-505,Backend task 505,To Do,Low,2023-09-05,Vikram,backend
+DS-506,Cloud task 506,To Do,Low,2024-05-03,Priya,cloud
+DS-507,Ai/ml task 507,Done,High,2023-06-06,Rahul,ai/ml
+DS-508,Backend task 508,Done,Medium,2023-05-21,Anita,backend
+DS-509,Cloud task 509,To Do,Low,2023-06-14,Rahul,cloud
+DS-510,Cloud task 510,To Do,Low,2023-07-16,Vikram,cloud
+DS-511,Cloud task 511,Done,Low,2023-07-20,Shridayal,cloud
+DS-512,Ai/ml task 512,In Progress,High,2024-03-21,Shridayal,ai/ml
+DS-513,Deployment task 513,To Do,High,2024-04-27,Vikram,deployment
+DS-514,Backend task 514,To Do,Medium,2023-02-14,Anita,backend
+DS-515,Backend task 515,In Progress,Low,2023-05-17,Rahul,backend
+DS-516,Ai/ml task 516,Done,Medium,2024-05-11,Shridayal,ai/ml
+DS-517,Backend task 517,To Do,Medium,2024-02-19,Rahul,backend
+DS-518,Devops task 518,Done,Medium,2024-03-23,Priya,devops
+DS-519,Ai/ml task 519,In Progress,Medium,2023-07-30,Priya,ai/ml
+DS-520,Cloud task 520,Done,High,2023-07-26,Rahul,cloud
