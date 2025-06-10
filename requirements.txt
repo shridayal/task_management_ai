@@ -1,11 +1,3 @@
+streamlit
 pandas
 numpy
-scikit-learn
-xgboost
-nltk
-matplotlib
-seaborn
-plotly
-streamlit
-joblib
-gensim
