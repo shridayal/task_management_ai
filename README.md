@@ -52,43 +52,43 @@
 
 ### 🏠 Main Dashboard
 
-![Main Dashboard](https://app.outlier.ai/playground/images/dashboard.png)  
+
 _Overview of the task management system with real-time analytics_
 
 ### 📝 Task Input & Classification
 
-![Task Input](https://app.outlier.ai/playground/images/task-input.png)  
+
 _Smart task entry with AI-powered auto-classification_
 
 ### 📊 Priority Prediction Interface
 
-![Priority Prediction](https://app.outlier.ai/playground/images/priority-prediction.png)  
+
 _Real-time priority scoring and recommendations_
 
 ### 📈 Analytics & Performance Dashboard
 
-![Analytics Dashboard](https://app.outlier.ai/playground/images/analytics.png)  
+
 _Comprehensive performance metrics and model accuracy visualization_
 
 ### ⚖️ Workload Balancing View
 
-![Workload Balancing](https://app.outlier.ai/playground/images/workload-balance.png)  
+ 
 _Intelligent task distribution across team members_
 
 ### 🤖 Model Performance Comparison
 
-![Model Performance](https://app.outlier.ai/playground/images/model-performance.png)  
+  
 _Detailed comparison of different AI models and their accuracy_
 
 ----------
 
 ## 🚀 Live Demo
 
-**Try the live application:**  [Task Management AI Demo](https://app.outlier.ai/playground/your-streamlit-app-url)
+**Try the live application:**  [Task Management AI Demo]
 
 > 🎬  **Quick Demo GIF**
 
-![App Demo](https://app.outlier.ai/playground/images/demo.gif)
+
 
 ----------
 
