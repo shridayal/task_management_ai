@@ -46,50 +46,6 @@
 
 ----------
 
-## 🖼️ Screenshots
-
-### 🏠 Main Dashboard
-
-
-_Overview of the task management system with real-time analytics_
-
-### 📝 Task Input & Classification
-
-
-_Smart task entry with AI-powered auto-classification_
-
-### 📊 Priority Prediction Interface
-
-
-_Real-time priority scoring and recommendations_
-
-### 📈 Analytics & Performance Dashboard
-
-
-_Comprehensive performance metrics and model accuracy visualization_
-
-### ⚖️ Workload Balancing View
-
- 
-_Intelligent task distribution across team members_
-
-### 🤖 Model Performance Comparison
-
-  
-_Detailed comparison of different AI models and their accuracy_
-
-----------
-
-## 🚀 Live Demo
-
-**Try the live application:**  [Task Management AI Demo]
-
-> 🎬  **Quick Demo GIF**
-
-
-
-----------
-
 ## 🛠️ Technologies Used
 
 Category
