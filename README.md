@@ -10,8 +10,6 @@
 ## 📋 Table of Contents
 
 -   ✨ Features
--   🖼️ Screenshots
--   🚀 Live Demo
 -  🛠️ Technologies Used
 -   📊 Model Performance
 -   ⚡ Quick Start
@@ -232,31 +230,6 @@ All features
 -   **Purpose**: Combined predictions
 -   **Accuracy**: 91.8%
 -   **Features**: Meta-learning approach
-
-----------
-## 🎯 Project Structure
-
-Collapse
-
-1task-management-ai/
-2├── 📁 data/
-3│   ├── raw_tasks.csv
-4│   └── processed_tasks.csv
-5├── 📁 models/
-6│   ├── naive_bayes.pkl
-7│   ├── svm_model.pkl
-8│   ├── random_forest.pkl
-9│   └── xgboost_model.pkl
-10├── 📁 src/
-11│   ├── preprocessing.py
-12│   ├── feature_engineering.py
-13│   ├── model_training.py
-14│   └── prediction.py
-15├── 📁 images/          # Your screenshots go here
-16├── 📁 tests/
-17├── app.py              # Streamlit app
-18├── requirements.txt
-19└── README.md`
 
 ----------
 
