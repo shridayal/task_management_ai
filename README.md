@@ -221,4 +221,4 @@ This project is licensed under the MIT License - see the  [LICENSE](https://app.
 
 **⭐ Star this repo if you found it helpful!**
 
-Made with ❤️ by Shridayal Yadav
+Made with ❤️ by Annieshilpha D
